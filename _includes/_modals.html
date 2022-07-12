@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modals</title>
+</head>
+
+<body>
+
+  <!--Sign up-->
+  <div class="modal-sign-up d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <form action="#" method="POST">
+          <h5>Зарегистрироваться</h5>
+          <div class="form-floating mt-3">
+            <input id="signUpName" type="text" name="name" class="form-control form-control-sm" placeholder="Введите имя пользователя" required>
+            <label for="signUpName" class="form-label">Имя пользователя</label>
+          </div>
+          <div class="form-floating mt-3">
+            <input id="signUpPassword" type="password" name="userPassword" class="form-control form-control-sm" placeholder="Введите пароль" required>
+            <label for="signUpPassword" class="form-label">Пароль</label>
+          </div>
+          <div class="form-floating mt-3">
+            <input id="signUpEmail" type="password" name="userPassword" class="form-control form-control-sm" placeholder="Введите email" required>
+            <label for="signUpEmail" class="form-label">Email</label>
+          </div>
+          <div class="form-check mt-3">
+            <input class="form-check-input" type="checkbox" value="" id="signUpCheck">
+            <label class="form-check-label" for="signUpCheck">
+              Я согласен(на) с <a href="../pages/policy.html" target="_blank" class="policyLink">политикой конфиденциальности</a>
+            </label>
+          </div>
+          <button type="button" class="sign-up-close btn-close btn-close-white" aria-label="Close"></button>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-outline-success mt-3">Зарегистрироваться</button>
+            <hr class="mt-4">
+            <p class="form-actions-text mt-3 text-danger">Уже зарегистрированы?</p>
+            <a href='#' class="signUpLink">Войти</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Sign in-->
+  <div class="modal-sign-in  d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <form action="#" method="POST">
+          <h5>Войти в личный кабинет</h5>
+          <div class=" form-floating mt-3">
+            <input id="signInName" type="text" name="name " class="form-control form-control-sm" placeholder="Введите имя пользователя" required>
+            <label for="signInName" class="form-label">Имя пользователя</label>
+          </div>
+          <div class="form-floating mt-3">
+            <input id="signInPassword" type="password" name="userPassword" class="form-control form-control-sm" placeholder="Введите пароль" required>
+            <label for="signInPassword" class="form-label">Пароль</label>
+          </div>
+          <div class="form-check mt-3">
+            <input class="form-check-input" type="checkbox" value="" id="signInCheck">
+            <label class="form-check-label" for="signInCheck">Забыли пароль?</label>
+          </div>
+          <button type="button" class="sign-in-close btn-close btn-close-white" aria-label="Close"></button>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-outline-success mt-3">Войти</button>
+            <hr class="mt-4">
+            <p class="form-actions-text mt-3 text-danger">Нет учетной записи?</p>
+            <a href="#" class="signInLink">Зарегистрироваться</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Password change-->
+  <div class="modal-password-change d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <h5>Изменить пароль</h5>
+        <div class="mb-3 row">
+          <label for="staticName" class="col-sm-6 col-form-label">Имя пользователя: </label>
+          <div class="col-sm-6">
+            <input type="text" readonly class="form-control-plaintext" id="staticName" value="name">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Пароль:</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" name="userPassword" required>
+          </div>
+        </div>
+        <button type="button" class="password-change-close btn-close btn-close-white" aria-label="Close"></button>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-outline-success mt-3">Сохранить изменения</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Confirm identity-->
+  <div class="modal-identity-confirm d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <h5>Введите пароль, отправленный на email:</h5>
+        <form class="row g-3">
+          <div class="col-auto">
+            <label for="staticEmail2" class="visually-hidden">Email</label>
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+          </div>
+          <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidde form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword2" placeholder="Password" name="userPassword" required>
+          </div>
+          <button type="button" class="identity-confirm-close btn-close btn-close-white" aria-label="Close"></button>
+          <div class="form-actions">
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-secondary mb-3">Confirm identity</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--Cart 
+  <div class="modal-empty-cart  d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <h5>Ваша корзина пуста. Вы можете
+          <a href="../pages/books.html">Перейти в каталог</a>
+          и добавить книги в корзину
+        </h5>
+        <button type="button" class="empty-cart-close btn-close btn-close-white" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+-->
+  <!--Become an author form-->
+  <div class="modal-become-author d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content become-author-content">
+        <h5>Заполните форму, и мы с Вами свяжемся:</h5>
+        <form class="become-author-form" method="POST" action="#">
+          <div class="row mt-3">
+            <div class="col">
+              <div class="input-group input-group-sm">
+                <span class="input-group-text">Введите имя и фамилию</span>
+                <input type="text" aria-label="Имя" class="form-control" name="userName" required>
+                <input type="text" aria-label="Фамилия" class="form-control" name="userSurname" required>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="become-author-email" placeholder="Email адрес" name="userEmail" required>
+                <label class='form-label-sm' for="become-author-email">Email адрес</label>
+              </div>
+              <div class="col">
+                <div class="form-floating">
+                  <input type="tel" class="form-control" id="become-author-tel" placeholder="Контактный номер" name="userPhone" required>
+                  <label for="become-author-tel" class="form-label-sm">Контактный номер</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Ваше сообщение" id="become-author-message" name="userMessage" style="height: 100px"></textarea>
+                <label for="become-author-message">Ваше сообщение</label>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="input-group input-group-sm">
+                <label class="input-group-text" for="become-author-file">Upload</label>
+                <input type="file" class="form-control" id="become-author-file" name="userFile">
+              </div>
+            </div>
+            <div class="form-check mt-3">
+              <input class="form-check-input" type="checkbox" value="" id="becomeAuthorCheck">
+              <label class="form-check-label" for="becomeAuthorCheck">
+                Я согласен(на) с <a href="../pages/policy.html" target="_blank" class="policyLink">политикой конфиденциальности</a>
+              </label>
+            </div>
+            <button type="button" class="become-author-close btn-close btn-close-white" aria-label="Close"></button>
+            <div class="row mt-3">
+              <button type="button" class="become-author-send btn btn-outline-secondary">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--Request a call-->
+  <div class="modal-call-request  d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <h5>Оставьте свои контакты, и мы сами перезвоним:</h5>
+        <form class="call-request-form" method="POST" action="#">
+          <div class="form-floating mt-3">
+            <input id="callRequestName" type="text" name="userName" class="form-control form-control-sm" placeholder="Введите имя пользователя" required>
+            <label for="callRequestName">Введите свое имя</label>
+          </div>
+          <div class="form-floating mt-3">
+            <input type="tel" class="form-control" id="callRequestTel" placeholder="Контактный номер" name="userPhone" required>
+            <label for="callRequestTel" class="form-label-sm">Контактный номер</label>
+          </div>
+          <div class="form-floating mt-3">
+            <input type="email" class="form-control" id="callRequestEmail" placeholder="Email адрес" name="userEmail">
+            <label class='form-label-sm' for="callRequestEmail">Email адрес (*необязательно)</label>
+          </div>
+          <div class="form-check mt-3">
+            <input class="form-check-input" type="checkbox" value="" id="callRequestCheck">
+            <label class="form-check-label" for="callRequestCheck">
+              Я согласен(на) с <a href="../pages/policy.html" target="_blank" class="policyLink">политикой конфиденциальности</a>
+            </label>
+          </div>
+          <button type="button" class="call-request-close btn-close btn-close-white" aria-label="Close"></button>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-outline-success mt-3">Заказать звонок</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--Meeting with the author-->
+  <div class="modal-participate-meeting d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content participate-meeting-content">
+        <h5>Оставьте заявку на участие во встрече с автором:</h5>
+        <form class="participate-meeting-form" method="POST" action="#">
+          <div class="row mt-3">
+            <div class="col">
+              <div class="input-group input-group-sm">
+                <span class="input-group-text">Введите имя и фамилию</span>
+                <input type="text" aria-label="Имя" class="form-control" name="userName" required>
+                <input type="text" aria-label="Фамилия" class="form-control" name="userSurname">
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="participate-meeting-email" placeholder="Email адрес" name="userEmail" required>
+                <label class='form-label-sm' for="participate-meeting-email">Email адрес</label>
+              </div>
+              <div class="col">
+                <div class="form-floating">
+                  <input type="tel" class="form-control" id="participate-meeting-tel" placeholder="Контактный номер" name="userPhone" required>
+                  <label for="participate-meeting-tel" class="form-label-sm">Контактный номер</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Ваше сообщение" id="participate-meeting-message" name="userMessage" style="height: 100px"></textarea>
+                <label for="participate-meeting-message">Ваше сообщение или вопрос</label>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="participate-meeting-close btn-close btn-close-white" aria-label="Close"></button>
+          <div class="row mt-3">
+            <button type="button" class="participateMeeting-btn btn btn-outline-secondary">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="../js/main.js"></script>
+
+</body>
+
+</html>

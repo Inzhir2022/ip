@@ -1,0 +1,83 @@
+[
+    {"imgSrc": "'../img/our-team/1.png'",
+    "cardTitle": "Иванов Иван",
+    "cardText": "Издатель",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "iivanov@gmail.com"
+
+},
+    {"imgSrc": "'../img/our-team/2.png'",
+    "cardTitle": "Егоров Георгий",
+    "cardText": "Главный редактор",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "gegorov@gmail.com"
+
+},
+{"imgSrc": "'../img/our-team/3.png'",
+    "cardTitle": "Петров Петр",
+    "cardText": "Ведущий редактор",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "ppetrov@gmail.com"
+
+},
+{"imgSrc": "'../img/our-team/4.png'",
+    "cardTitle": "Иванова Татьяна",
+    "cardText": "Литературный редактор",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "tivanova@gmail.com"
+
+},
+{"imgSrc": "'../img/our-team/5.png'",
+    "cardTitle": "Добрынина Ольга",
+    "cardText": "Главный художник",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "odobrynina@gmail.com"
+
+},
+
+{"imgSrc": "'../img/our-team/6.png'",
+    "cardTitle": "Петрова Мария",
+    "cardText": "Руководитель производственного отдела",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "mpetrova@gmail.com"
+
+},
+{"imgSrc": "'../img/our-team/7.png'",
+    "cardTitle": "Юрьева Лидия",
+    "cardText": "Руководитель отдела по работе с иностранными правами",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "lyur'eva@gmail.com"
+
+},
+{"imgSrc": "'../img/our-team/8.png'",
+    "cardTitle": "Гонцов Алексей",
+    "cardText": "Руководитель маркетингового отдела",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "agontsov@gmail.com"
+
+},
+{"imgSrc": "'../img/our-team/9.png'",
+    "cardTitle": "Русакова Марина",
+    "cardText": "Руководитель PR отдела",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "mrusakova@gmail.com"
+
+},
+{"imgSrc": "'../img/our-team/10.png'",
+    "cardTitle": "Георгиев Юрий",
+    "cardText": "Руководитель отдела продаж",
+    "socialVk": "'#'",
+    "socialTelegram": "'#'",
+    "cardEmail": "yugeorgiev@gmail.com"
+
+}
+]

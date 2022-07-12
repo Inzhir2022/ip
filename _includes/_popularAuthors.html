@@ -1,0 +1,106 @@
+<section class="popular-authors">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="auth-list"><a href="pages/authors.html" data-bs-toggle="tooltip" title="Больше информации об авторах">Популярные авторы</a></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="card"><a href="pages/authors.html#author1"><img class="card-img-top" src="img/authors/1.jpg" alt="oops"></a>
+          <p class="card-text">Стивен Кинг</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="card"><a href="pages/authors.html#author2"><img class="card-img-top" src="img/authors/2.png" alt="oops"></a>
+          <p class="card-text">Джордж Мартин</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="card"><a href="pages/authors.html#author3"><img class="card-img-top" src="img/authors/3.png" alt="oops"></a>
+          <p class="card-text">Дэн Браун</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="card"><a href="pages/authors.html#author4"><img class="card-img-top" src="img/authors/4.png" alt="oops"></a>
+          <p class="card-text">Борис Акунин</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="card"><a href="pages/authors.html#author5"><img class="card-img-top" src="img/authors/5.jpg" alt="oops"></a>
+          <p class="card-text">Виктор Пелевин</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+        <div class="card"><a href="pages/authors.html#author6"><img class="card-img-top" src="img/authors/6.png" alt="oops"></a>
+          <p class="card-text">Нил Гейман</p>
+        </div>
+      </div>
+    </div>
+    <div class="col text-center after-posts">
+
+      <a href="pages/authors.html" class="btn btn-outline-secondary me-3">Все авторы</a>
+
+      <button class="becomeAuthor btn btn-outline-success text" type="submit">Хочу стать автором</button>
+    </div>
+  </div>
+</section>
+
+<!--Become an author form-->
+<div class="modal-become-author d-none" data-modal>
+  <div class="modal-overlay">
+    <div class="modal-content become-author-content">
+      <div class="container">
+        <h5>Заполните форму, и мы с Вами свяжемся:</h5>
+        <form class="become-author-form" method="POST" action="#">
+          <div class="row">
+            <div class="col">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="userName" placeholder="Введите свое имя" name="userName" required>
+                <label for="userName">Ваше имя:</label>
+              </div>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="userSurname" name="userSurname" placeholder="Введите свою фамилию" required>
+                <label for="userName">Ваша фамилия:</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="become-author-email" placeholder="Email адрес" name="userEmail" required>
+                <label class='form-label-sm' for="become-author-email">Email адрес:</label>
+              </div>
+              <div class="col">
+                <div class="form-floating">
+                  <input type="tel" class="form-control" id="become-author-tel" placeholder="Контактный номер" name="userPhone" required>
+                  <label for="become-author-tel" class="form-label-sm">Контактный номер:</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Ваше сообщение" id="become-author-message" name="userMessage" style="height: 100px"></textarea>
+                <label for="become-author-message">Ваше сообщение:</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="becomeAuthorCheck" required>
+              <label class="form-check-label" for="becomeAuthorCheck">
+                Я согласен(на) с <a href="pages/policy.html" target="_blank" class="policyLink">политикой конфиденциальности</a>
+              </label>
+            </div>
+            <button type="button" class="become-author-close btn-close btn-close-white" aria-label="Close"></button>
+            <div class="row">
+              <button type="submit" class="become-author-send btn btn-outline-success">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
