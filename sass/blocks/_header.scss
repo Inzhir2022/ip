@@ -1,0 +1,46 @@
+.header {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  nav {
+    z-index: 900;
+  }
+  .navbar-expand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-brand .logo {
+    width: 40px;
+    justify-self: flex-start;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  &-auth {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    cursor:pointer;
+    a, a:visited, a:active {
+      color:rgba(0,0,0,0.5);
+      &:hover  {
+        color:$black;
+      }
+    }
+  }
+  &-social {
+    display: none;
+  }
+  .navbar-brand {
+    font-size: 19px;
+  }
+  .navbar-nav {
+    font-size: 17px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: rgba(0,0,0,0.5);
+    &:hover {
+      color: $black;
+    }
+  }
+}

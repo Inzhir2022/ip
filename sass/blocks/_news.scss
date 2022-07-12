@@ -1,0 +1,31 @@
+.news {
+  padding: 100px 30px 30px 30px;
+  min-height: 1000px;
+
+  &-wrapper {
+    display: flex;
+  }
+  .nav {
+    &-link {
+      width: 250px;
+      &:hover {
+        background-color: #6c757d!important;
+        color: $white!important;
+        transition: all .15s ease-in-out;
+      }
+    }
+  }
+  .tabs {
+    margin-right: 90px!important;
+  }
+  .participateMeeting {
+    z-index: 5;
+  }
+  .nav-link.active{ 
+    background-color: #6c757d!important;
+    color: $white!important;
+  }
+  .events_post {
+    max-width: 600px;
+  }
+}

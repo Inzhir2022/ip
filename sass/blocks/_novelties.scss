@@ -1,0 +1,42 @@
+.new-books {
+  margin-top: 100px;
+  a {
+    color: $black;
+  }
+  .books-list {
+    margin-bottom: 27px;
+  }
+  .card {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 11.5rem;
+    min-height: 510px;
+    z-index: 5;
+    &-title {
+      font-size: 17px;
+      font-weight: 700;
+    }
+    &-footer {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: transparent;
+      font-style: italic;
+
+      a {
+        &:hover {
+          font-weight: 700;
+          transition: all 0.5s ease;
+        }
+      }
+    }
+  }
+  .more-books {
+    a {
+      text-decoration: underline;
+      font-weight: 700;
+    }
+  }
+}

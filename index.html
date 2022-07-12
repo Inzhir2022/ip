@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Inzhir Publishing</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm rounded fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="logo" class="logo">
+          <span>InzhirPublishing</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="header-menu offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/about.html">О нас</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="pages/books.html">
+                  Наши книги
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/news.html">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacts.html">Контакты</a>
+              </li>
+            </ul>
+            <div class="header-social">
+              <ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" target="_blank">
+                    <i class="fa-brands fa-telegram mt-3"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" target="_blank">
+                    <i class="fab fa-vk mt-3"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="banner carousel carousel-dark slide carousel-fade" id="slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval='1500'>
+            <img class="d-block w-100" src="img/banner/events.jpg" alt="First slide">
+            <div class="carousel-caption">
+              <div class="rectangle">
+                <a href="pages/news.html" data-bs-toggle="tooltip" title="Перейти в раздел новостей"> Узнать подробнее </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval='1500'>
+            <img class="d-block w-100" src="img/banner/bestsellers.jpg" alt="Second slide">
+            <div class="carousel-caption">
+              <div class="rectangle">
+                <a href="pages/books.html" data-bs-toggle="tooltip" title="Перейти в каталог"> Посмотреть все </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active" data-bs-interval='1500'>
+            <img class="d-block w-100" src="img/banner/new-books.jpg" alt="Third slide">
+            <div class="carousel-caption">
+              <div class="rectangle">
+                <a href="pages/books.html" data-bs-toggle="tooltip" title="Перейти в каталог"> Перейти в каталог </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="svisually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+      </div>
+      <section class="last-news">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="news-post">
+                <h3 class="post-category ">Новости</h3>
+                <h2 class="post-title" data-bs-toggle="tooltip" title="Перейти в раздел новостей">
+                  <a href="pages/news.html">Новости издательства</a>
+                </h2>
+                <p class="post-text mt-lg-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium animi doloremque omnis pariatur soluta.
+                  Beatae blanditiis commodi et hic minima nihil voluptates!
+                  Commodi consectetur earum eius, est ratione sint tempore!
+                  Accusamus, aliquid consectetur cum delectus deleniti eaque et exercitationem illum impedit,
+                  iure magnam magni minima modi necessitatibus nemo nobis perferendis
+                  placeat quaerat quisquam quod repellat sapiente sit veritatis voluptate voluptate
+                  Cupiditate dolor doloribus id magnam maxime omnis, quod repellat!
+                </p>
+                <p><a class="news-more" href="pages/news.html" data-bs-toggle="tooltip" title="Перейти в раздел новостей">Подробнее</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-posts">
+          <div class="container">
+            <div class="row mt-lg-5">
+              <div class="col-md-6">
+                <div class="card"><img class="card-img-top" src="img/news-posts/post1.png" alt="oops">
+                  <div class="card-body">
+                    <h3 class="post-category">События</h3>
+                    <h6 class="post-title">Название карточки</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p><a class="events-more" href="pages/news.html" data-bs-toggle="tooltip" title="Перейти в раздел новостей">Подробнее</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card"><img class="card-img-top" src="img/news-posts/post2.jpg" alt="oops">
+                  <div class="card-body">
+                    <h3 class="post-category">События</h3>
+                    <h6 class="post-title">Название карточки</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p><a class="events-more" href="pages/news.html" data-bs-toggle="tooltip" title="Перейти в раздел новостей">Подробнее</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new-books">
+        <div class="book-posts">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="books-list"><a href="pages/books.html" data-bs-toggle="tooltip" title="Перейти в каталог">Наши новинки</a></h2>
+              </div>
+            </div>
+            <div class="carousel carousel-dark slide" data-bs-ride="carousel" id="books-slider">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                      <div class="card">
+                        <img class="img-fluid d-block" src="img/new-books/1.png" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="card-title">Время, занятое жизнью.</div>
+                          <p class="card-author">Урсула Ле Гуин</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                      <div class="card"><img class="img-fluid d-block" src="img/new-books/2.png" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="card-title">Доктор сон</div>
+                          <p class="card-author">Стивен Кинг</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                      <div class="card"><img class="img-fluid d-block" src="img/new-books/3.png" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="card-title">Воображаемый друг</div>
+                          <p class="card-author">Стивен Чбоски</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                      <div class="card"><img class="img-fluid d-block" src="img/new-books/4.png" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="card-title">Исчезновение Стефани Мейлер</div>
+                          <p class="card-author">Жоэль Диккер</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                      <div class="card"><img class="img-fluid d-block" src="img/new-books/6.png" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="card-title">История о пропавшем ребенке</div>
+                          <p class="card-author">Элена Ферранте</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                      <div class="card"><img class="img-fluid d-block" src="img/new-books/7.png" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="card-title">Дети мои</div>
+                          <p class="card-author">Гузель Яхина</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                      <div class="card"><img class="img-fluid d-block" src="img/new-books/8.png" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="card-title">Жареные зеленые помидоры в кафе "Полустанок"</div>
+                          <p class="card-author">Фэнни Флэгг</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                      <div class="card"><img class="img-fluid d-block" src="img/new-books/9.png" alt="Card image cap">
+                        <div class="card-body">
+                          <div class="card-title">Бабушка велела кланяться и передать, что просит прощения</div>
+                          <p class="card-author">Бакман Фредрик</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#books-slider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#books-slider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="more-books">
+                <span>Больше книг Вы можете найти в нашем
+                  <a href="pages/books.html" data-bs-toggle="tooltip" title="Перейти в каталог">каталоге</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular-authors">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="auth-list"><a href="pages/authors.html" data-bs-toggle="tooltip" title="Больше информации об авторах">Популярные авторы</a></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div class="card"><a href="pages/authors.html#author1"><img class="card-img-top" src="img/authors/1.jpg" alt="oops"></a>
+                <p class="card-text">Стивен Кинг</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div class="card"><a href="pages/authors.html#author2"><img class="card-img-top" src="img/authors/2.png" alt="oops"></a>
+                <p class="card-text">Джордж Мартин</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div class="card"><a href="pages/authors.html#author3"><img class="card-img-top" src="img/authors/3.png" alt="oops"></a>
+                <p class="card-text">Дэн Браун</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div class="card"><a href="pages/authors.html#author4"><img class="card-img-top" src="img/authors/4.png" alt="oops"></a>
+                <p class="card-text">Борис Акунин</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div class="card"><a href="pages/authors.html#author5"><img class="card-img-top" src="img/authors/5.jpg" alt="oops"></a>
+                <p class="card-text">Виктор Пелевин</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+              <div class="card"><a href="pages/authors.html#author6"><img class="card-img-top" src="img/authors/6.png" alt="oops"></a>
+                <p class="card-text">Нил Гейман</p>
+              </div>
+            </div>
+          </div>
+          <div class="col text-center after-posts">
+
+            <a href="pages/authors.html" class="btn btn-outline-secondary me-3">Все авторы</a>
+
+            <button class="becomeAuthor btn btn-outline-success text" type="submit">Хочу стать автором</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Become an author form-->
+      <div class="modal-become-author d-none" data-modal>
+        <div class="modal-overlay">
+          <div class="modal-content become-author-content">
+            <div class="container">
+              <h5>Заполните форму, и мы с Вами свяжемся:</h5>
+              <form class="become-author-form" method="POST" action="#">
+                <div class="row">
+                  <div class="col">
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="userName" placeholder="Введите свое имя" name="userName" required>
+                      <label for="userName">Ваше имя:</label>
+                    </div>
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="userSurname" name="userSurname" placeholder="Введите свою фамилию" required>
+                      <label for="userName">Ваша фамилия:</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="become-author-email" placeholder="Email адрес" name="userEmail" required>
+                      <label class='form-label-sm' for="become-author-email">Email адрес:</label>
+                    </div>
+                    <div class="col">
+                      <div class="form-floating">
+                        <input type="tel" class="form-control" id="become-author-tel" placeholder="Контактный номер" name="userPhone" required>
+                        <label for="become-author-tel" class="form-label-sm">Контактный номер:</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-floating">
+                      <textarea class="form-control" placeholder="Ваше сообщение" id="become-author-message" name="userMessage" style="height: 100px"></textarea>
+                      <label for="become-author-message">Ваше сообщение:</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="becomeAuthorCheck" required>
+                    <label class="form-check-label" for="becomeAuthorCheck">
+                      Я согласен(на) с <a href="pages/policy.html" target="_blank" class="policyLink">политикой конфиденциальности</a>
+                    </label>
+                  </div>
+                  <button type="button" class="become-author-close btn-close btn-close-white" aria-label="Close"></button>
+                  <div class="row">
+                    <button type="submit" class="become-author-send btn btn-outline-success">Отправить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="subscription">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h3 class="subscription-title text-center">Подпишитесь на нашу рассылку</h3>
+              <form class="subscription-form" method="POST" action="#" name="subscriptionForm">
+                <div class="form-row">
+                  <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 form-input">
+                    <button class="subscription-btn btn btn-outline-secondary" type="submit"><i class="far fa-hand-point-right"></i></button>
+                    <input class="subscription-input form-control" type="email" placeholder="Введите ваш email" name="userEmail" required>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container text-md-left">
+      <div class="row">
+        <div class="col-md-2 col-lg-3 my-3">
+          <a class="navbar-brand" href="#">
+            <img src="img/Logo.jpg" alt="logo" class=" logo me-1" /><span>InzhirPublishing</span>
+          </a>
+        </div>
+        <hr class="clearfix w-100 d-md-none" />
+        <div class="footer-menu col-md-4 col-lg-3 my-3">
+          <ul>
+            <li>
+              <p><a href="pages/about.html">О нас</a></p>
+            </li>
+            <li>
+              <p><a href="pages/books.html">Наши книги</a></p>
+            </li>
+            <li>
+              <p><a href="pages/authors.html">Авторы</a></p>
+            </li>
+            <li>
+              <p><a href="pages/news.html">Новости</a></p>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none" />
+        <div class="footer-contacts col-md-4 col-lg-3 my-3">
+          <ul>
+            <li><i class="fas fa-home me-3"></i>г.Новосибирск, ул. Советская, д. 64</li>
+            <li><a href="mailto:inzhir91@gmail.com"><i class="fas fa-envelope mt-3 me-3"></i> inzhir91@gmail.com</a></li>
+            <li>
+              <p><i class="fas fa-phone mt-3 me-3"></i><a href="tel:89999999999"> + 7 999 999 99 99</a></p>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none" />
+        <div class="footer-social col-md-2 col-lg-2 text-right my-3">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">
+                <i class="fa-brands fa-telegram mt-3"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" target="_blank">
+                <i class="fab fa-vk mt-3"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3"><i class="far fa-copyright"></i> Copyright: <a href="#">InzhirPublishing</a></div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

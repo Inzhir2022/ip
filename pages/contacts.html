@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <title>Contacts</title>
+</head>
+
+<body>
+
+
+  <header class="header">
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm rounded fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../img/logo.jpg" alt="logo" class="logo">
+        <span>InzhirPublishing</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="header-menu offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">О нас</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="../pages/books.html">
+                Наши книги
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/news.html">Новости</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacts.html">Контакты</a>
+            </li>
+          </ul>
+          <div class="header-social">
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#" target="_blank">
+                  <i class="fa-brands fa-telegram mt-3"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" target="_blank">
+                  <i class="fab fa-vk mt-3"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="../js/main.js"></script>
+  <section class="contacts">
+    <div class="container mt-5">
+      <h2 class="contacts-title">Контакты для связи</h2>
+      <div class="row">
+        <div class="contacts-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2285.6935310690874!2d82.9092650161214!3d55.04858558037086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe5b15ed5b90f%3A0x21690bf2c4dee849!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPLCA2NC8xLCDQndC-0LLQvtGB0LjQsdC40YDRgdC6LCDQndC-0LLQvtGB0LjQsdC40YDRgdC60LDRjyDQvtCx0LsuLCA2MzAwOTE!5e0!3m2!1sru!2sru!4v1573665190326!5m2!1sru!2sru" allowfullscreen="">
+
+          </iframe>
+        </div>
+        <div class="contacts-wrapper">
+          <p class="contacts-title text-right">Мы находимся по адресу:</p>
+          <address class="text-right">
+            <i class="fas fa-home me-3"></i>
+            г.Новосибирск, ул. Советская, д .64/1, оф.304
+          </address>
+          <p class="contacts-title text-right">Телефон для связи:</p>
+          <p class="text-right">
+            <i class="fas fa-phone mt-3 me-3"></i>
+            <a href="tel:89999999999"> + 7 999 999 9999</a>
+          </p>
+          <button type="button" class="callRequest btn btn-outline-secondary btn-sm">Заказать звонок</button>
+          <p class="contacts-title text-right">Вы можете написать нам:</p>
+          <p class="text-right">
+            <i class="fas fa-envelope mt-3 me-3"></i>
+            <a href="mailto:inzhir91@gmail.com">inzhir91@gmail.com</a>
+          </p>
+          <p class="contacts-title text-right"> Следуйте за нами в социальных сетях:</p>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="#">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="#">
+                <i class="fab fa-vk"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="contacts-text">Ссылки на социальные сети и рабочие email-адреса ключевых сотрудников издательства Вы можете найти в разделе <a href="../pages/about.html#about">О нас</a> / <a href="../pages/about.html#ourTeam">Наша команда</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+  <div class="container text-md-left">
+    <div class="row">
+      <div class="col-md-2 col-lg-3 my-3">
+        <a class="navbar-brand" href="#">
+          <img src="../img/Logo.jpg" alt="logo" class=" logo me-1" /><span>InzhirPublishing</span>
+        </a>
+      </div>
+      <hr class="clearfix w-100 d-md-none" />
+      <div class="footer-menu col-md-4 col-lg-3 my-3">
+        <ul>
+          <li>
+            <p><a href="../pages/about.html">О нас</a></p>
+          </li>
+          <li>
+            <p><a href="../pages/books.html">Наши книги</a></p>
+          </li>
+          <li>
+            <p><a href="../pages/authors.html">Авторы</a></p>
+          </li>
+          <li>
+            <p><a href="../pages/news.html">Новости</a></p>
+          </li>
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none" />
+      <div class="footer-contacts col-md-4 col-lg-3 my-3">
+        <ul>
+          <li><i class="fas fa-home me-3"></i>г.Новосибирск, ул. Советская, д. 64</li>
+          <li><a href="mailto:inzhir91@gmail.com"><i class="fas fa-envelope mt-3 me-3"></i> inzhir91@gmail.com</a></li>
+          <li>
+            <p><i class="fas fa-phone mt-3 me-3"></i><a href="tel:89999999999"> + 7 999 999 99 99</a></p>
+          </li>
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none" />
+      <div class="footer-social col-md-2 col-lg-2 text-right my-3">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank">
+              <i class="fa-brands fa-telegram mt-3"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank">
+              <i class="fab fa-vk mt-3"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3"><i class="far fa-copyright"></i> Copyright: <a href="#">InzhirPublishing</a></div>
+</footer>
+
+  <!--Request a call-->
+  <div class="modal-call-request  d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content call-request-content">
+        <div class="container">
+          <h5>Оставьте свои контакты, и мы сами перезвоним:</h5>
+          <form class="call-request-form" method="POST" action="#" name="callRequestForm">
+            <div class="form-floating mt-3">
+              <input id="callRequestName" type="text" name="userName" class="form-control form-control-sm" placeholder="Введите имя пользователя" required autofocus>
+              <label for="callRequestName">Введите свое имя</label>
+            </div>
+            <div class="form-floating mt-3">
+              <input type="tel" class="form-control" id="callRequestTel" placeholder="Контактный номер" name="userPhone" required>
+              <label for="callRequestTel" class="form-label-sm">Контактный номер</label>
+            </div>
+            <div class="form-floating mt-3">
+              <input type="email" class="form-control" id="callRequestEmail" placeholder="Email адрес" name="userEmail">
+              <label class='form-label-sm' for="callRequestEmail">Email адрес (*необязательно)</label>
+            </div>
+            <div class="form-check mt-3">
+              <input class="form-check-input" type="checkbox" value="" id="callRequestCheck" name="formCheck" required>
+              <label class="form-check-label" for="callRequestCheck">
+                Я согласен(на) с <a href="../pages/policy.html" target="_blank" class="policyLink">политикой конфиденциальности</a>
+              </label>
+            </div>
+            <button type="button" class="call-request-close btn-close btn-close-white" aria-label="Close"></button>
+            <div class="form-actions">
+              <button type="submit" class="call-request-send btn btn-outline-success mt-3">Заказать звонок</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script type="module" src="../js/main.js"></script>
+</body>
+
+</html>

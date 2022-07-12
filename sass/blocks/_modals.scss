@@ -1,0 +1,74 @@
+.modal-become-author, .modal-participate-meeting, .modal-call-request{
+  font-size: 14px;
+  h5,.input-group {
+    margin-bottom: 15px;
+  }
+  .input-group-text {
+    font-size: 13px;
+  }
+  .form-floating {
+    input {
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+  }
+  .form-check {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .become-author-send, .participate-meeting-send, .call-request-send {
+    width: 150px;
+    font-size: 14px;
+  }
+  .modal-overlay {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1000;
+  }
+  .modal-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 10;
+  }
+  .become-author-content, .participate-meeting-content, .call-request-content{
+    max-width: 600px;
+  }
+  .btn-close {
+    position: absolute;
+    font-size: 22px;
+  }
+  .become-author-close {
+    left: 597px;
+    bottom: 633px;
+  }
+  .participate-meeting-close, .call-request-close {
+    left: 596px;
+    bottom: 659px;
+  }
+
+  .call-request-close {
+    left: 595px;
+    bottom: 493px;
+  }
+
+  .form-actions-text {
+    font-size: 14px;
+  }
+  a {
+    text-decoration: underline;
+    color: $black;
+    cursor: pointer;
+  }
+  .policyLink {
+    font-weight: 700;
+  }
+}

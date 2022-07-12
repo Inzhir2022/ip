@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <title>News</title>
+</head>
+
+<body>
+  <header class="header">
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm rounded fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../img/logo.jpg" alt="logo" class="logo">
+        <span>InzhirPublishing</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="header-menu offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">О нас</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="../pages/books.html">
+                Наши книги
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/news.html">Новости</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacts.html">Контакты</a>
+            </li>
+          </ul>
+          <div class="header-social">
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#" target="_blank">
+                  <i class="fa-brands fa-telegram mt-3"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" target="_blank">
+                  <i class="fab fa-vk mt-3"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="../js/main.js"></script>
+  <section class="news">
+    <div class="container">
+      <div class="mt-5 mb-5">
+        <div class="news-wrapper col-xl-6 col-lg-8 col-md-7">
+
+          <div class="tabs nav flex-column nav-pills me-3 col-8" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active bg-transparent border border-secondary text-secondary" id="v-pills-news-tab" data-bs-toggle="pill" data-bs-target="#v-pills-news" type="button" role="tab" aria-controls="v-pills-news" aria-selected="true">Новости</button>
+            <button class="nav-link bg-transparent border border-secondary text-secondary mt-3" id="v-pills-events-tab" data-bs-toggle="pill" data-bs-target="#v-pills-events" type="button" role="tab" aria-controls="v-pills-events" aria-selected="false">События</button>
+            <button class="nav-link bg-transparent border border-secondary text-secondary mt-3" id="v-pills-meetings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-meetings" type="button" role="tab" aria-controls="v-pills-meetings" aria-selected="false">Встречи</button>
+          </div>
+
+          <div class="tab-content col-12" id="v-pills-tabContent">
+
+            <div class="tab-pane fade show active" id="v-pills-news" role="tabpanel" aria-labelledby="v-pills-news-tab" tabindex="0">
+
+              <h2 class="news-title mt-0 mb-3">Новость 1</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium animi doloremque omnis pariatur soluta.
+                Beatae blanditiis commodi et hic minima nihil voluptates!
+                Commodi consectetur earum eius, est ratione sint tempore!
+                Accusamus, aliquid consectetur cum delectus deleniti eaque et exercitationem illum impedit,
+                iure magnam magni minima modi necessitatibus nemo nobis perferendis
+                placeat quaerat quisquam quod repellat sapiente sit veritatis voluptate voluptate
+                Cupiditate dolor doloribus id magnam maxime omnis, quod repellat!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque beatae consequatur cumque,
+                deleniti est expedita facere illum ipsum magni minima nemo nostrum odio pariatur quam quis repellat temporibus totam?</p>
+              <p>Alias aliquam autem, corporis doloribus expedita illo incidunt itaque laborum nostrum optio qui, unde, ut voluptas!
+                A, aliquid ducimus est, et, hic modi possimus provident tempora unde voluptates voluptatibus voluptatum.
+              </p>
+              <h2 class="news-title mt-5 mb-3">Новость 2</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium animi doloremque omnis pariatur soluta.
+                Beatae blanditiis commodi et hic minima nihil voluptates!
+                Commodi consectetur earum eius, est ratione sint tempore!
+                Accusamus, aliquid consectetur cum delectus deleniti eaque et exercitationem illum impedit,
+                iure magnam magni minima modi necessitatibus nemo nobis perferendis
+                placeat quaerat quisquam quod repellat sapiente sit veritatis voluptate voluptate
+                Cupiditate dolor doloribus id magnam maxime omnis, quod repellat!</p>
+
+              <h2 class="news-title mt-5 mb-3">Новость 3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium animi doloremque omnis pariatur soluta.
+                Beatae blanditiis commodi et hic minima nihil voluptates!
+                Commodi consectetur earum eius, est ratione sint tempore!
+                Accusamus, aliquid consectetur cum delectus deleniti eaque et exercitationem illum impedit,
+                iure magnam magni minima modi necessitatibus nemo nobis perferendis
+                placeat quaerat quisquam quod repellat sapiente sit veritatis voluptate voluptate
+                Cupiditate dolor doloribus id magnam maxime omnis, quod repellat!</p>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-events" role="tabpanel" aria-labelledby="v-pills-events-tab" tabindex="0">
+              <h2 class="event-category mt-0 mb-4">Событие 1</h2>
+              <a href="#"> <img src="../img/news-posts/post1.png" alt="oops" class="events_post mb-3"></a>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              <h2 class="event-category mt-5 mb-4">Событие 2</h2>
+              <a href="#"> <img src="../img/news-posts/post2.jpg" alt="oops" class="events_post mb-3"></a>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-meetings" role="tabpanel" aria-labelledby="v-pills-meetings-tab" tabindex="0">
+              <h2 class="meeting-category mt-0 mb-4">Встреча с автором</h2>
+              <a href="../pages/books.html"><img src="../img/authors/4.png" alt="oops" class="meeting mb-3"></a>
+              <p>Tokyo is the capital of Japan.Some quick example text to build on the card title and make up the bulk of the card's content.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium animi doloremque omnis pariatur soluta.</p>
+              <p>Tokyo is the capital of Japan.Some quick example text to build on the card title and make up the bulk of the card's content.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium animi doloremque omnis pariatur soluta.</p>
+              <button type="button" class="participateMeeting btn btn-danger mt-2">
+                Принять участие
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+  <div class="container text-md-left">
+    <div class="row">
+      <div class="col-md-2 col-lg-3 my-3">
+        <a class="navbar-brand" href="#">
+          <img src="../img/Logo.jpg" alt="logo" class=" logo me-1" /><span>InzhirPublishing</span>
+        </a>
+      </div>
+      <hr class="clearfix w-100 d-md-none" />
+      <div class="footer-menu col-md-4 col-lg-3 my-3">
+        <ul>
+          <li>
+            <p><a href="../pages/about.html">О нас</a></p>
+          </li>
+          <li>
+            <p><a href="../pages/books.html">Наши книги</a></p>
+          </li>
+          <li>
+            <p><a href="../pages/authors.html">Авторы</a></p>
+          </li>
+          <li>
+            <p><a href="../pages/news.html">Новости</a></p>
+          </li>
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none" />
+      <div class="footer-contacts col-md-4 col-lg-3 my-3">
+        <ul>
+          <li><i class="fas fa-home me-3"></i>г.Новосибирск, ул. Советская, д. 64</li>
+          <li><a href="mailto:inzhir91@gmail.com"><i class="fas fa-envelope mt-3 me-3"></i> inzhir91@gmail.com</a></li>
+          <li>
+            <p><i class="fas fa-phone mt-3 me-3"></i><a href="tel:89999999999"> + 7 999 999 99 99</a></p>
+          </li>
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none" />
+      <div class="footer-social col-md-2 col-lg-2 text-right my-3">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank">
+              <i class="fa-brands fa-telegram mt-3"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank">
+              <i class="fab fa-vk mt-3"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3"><i class="far fa-copyright"></i> Copyright: <a href="#">InzhirPublishing</a></div>
+</footer>
+  <!--Meeting with the author-->
+  <div class="modal-participate-meeting d-none" data-modal>
+    <div class="modal-overlay">
+      <div class="modal-content participate-meeting-content">
+        <div class="container">
+          <h5>Оставьте заявку на участие во встрече с автором:</h5>
+          <form class="participate-meeting-form" method="POST" action="#">
+            <div class="row">
+              <div class="col">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="userName" placeholder="Введите свое имя" name="userName" required>
+                  <label for="userName">Ваше имя:</label>
+                </div>
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="userSurname" name="userSurname" placeholder="Введите свою фамилию" required>
+                  <label for="userName">Ваша фамилия:</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="participate-meeting-email" placeholder="Email адрес" name="userEmail" required>
+                  <label class='form-label-sm' for="participate-meeting-email">Email адрес</label>
+                </div>
+                <div class="col">
+                  <div class="form-floating">
+                    <input type="tel" class="form-control" id="participate-meeting-tel" placeholder="Контактный номер" name="userPhone" required>
+                    <label for="participate-meeting-tel" class="form-label-sm">Контактный номер</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Ваше сообщение" id="participate-meeting-message" name="userMessage" style="height: 100px"></textarea>
+                  <label for="participate-meeting-message">Ваше сообщение или вопрос</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="participateMeetingCheck" required>
+                <label class="form-check-label" for="participateMeetingCheck">
+                  Я согласен(на) с <a href="../pages/policy.html" target="_blank" class="policyLink">политикой конфиденциальности</a>
+                </label>
+              </div>
+              <button type="button" class="participate-meeting-close btn-close btn-close-white" aria-label="Close"></button>
+              <div class="row">
+                <button type="submit" class="participate-meeting-send btn btn-outline-success">Отправить</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script type="module" src="../js/main.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,22 @@
+.popular-authors {
+  position: relative;
+  margin-top: 100px;
+  a {
+    color: $black;
+  }
+  .card {
+    background-color: $black;
+    align-items: center;
+    &-text {
+      padding: 7px 0;
+      
+      color: $white;
+    }
+  }
+  .auth-list {
+    margin-bottom: 27px;
+  }
+  .after-posts {
+    margin-top: 27px;
+  }
+}

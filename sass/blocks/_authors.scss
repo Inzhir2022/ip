@@ -1,0 +1,61 @@
+.authors {
+  padding: 50px 0 100px 0;
+  a{
+    text-decoration: none;
+    color: $white;
+    &:hover {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+  .card {
+    position: relative;
+    padding: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 280px;
+    min-height: 750px;
+    font-size: 16px;
+    &-title {
+      font-weight: 700;
+      font-size: 22px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+    }
+    &-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &-descr {
+      margin-bottom: 0;
+    }
+    &-footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: $black;
+      text-align: center;
+      cursor: pointer;
+      font-size: 19px;
+    }
+  }
+  .btn-become-author {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .info-link {
+    a {
+      color: $black;
+      text-decoration: underline;
+      font-weight: 700;
+      &:hover, &:visited {
+        color: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+
+@import './base/variables';
+@import 'base/fonts';
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+  &:hover, &:visited {
+    text-decoration: none;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  outline: none;
+}
+
+.status {
+  text-align: center;
+  color: $color-danger;
+}
+
+
+
+
+
+
+@import 'blocks/header';
+@import 'blocks/banner';
+@import 'blocks/lastNews';
+@import 'blocks/novelties';
+@import 'blocks/popularAuthors';
+@import 'blocks/subscription';
+@import 'blocks/footer';
+@import 'blocks/media';
+@import 'blocks/about';
+@import 'blocks/contacts';
+@import 'blocks/news';
+@import 'blocks/modals';
+@import 'blocks/policy';
+@import 'blocks/authors';
+@import 'blocks/books';
+
